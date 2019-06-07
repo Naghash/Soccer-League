@@ -1,265 +1,260 @@
-.container{
+.container {
 	display: grid;
-}
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+	grid-template-columns: 5% 45% 45% 5%;
+	grid-template-rows: 12% 88%;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+.divgridtab {
+	display: grid;
+	grid-column: 1/3;
 }
-.sign{
-	border: none;
-    border-bottom: 1px solid;
-	width: 310px;
-	
-}
-.size{
-	display: flex;
-	justify-content: space-evenly;
-}
-.sizebox{
-	display: flex;
-    flex-direction: column;
-	
-}
-.position{
-	display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.positionbox{
-	display: flex;
-    flex-direction: column;	
-}
-.schools{
-	display: flex;
-    justify-content: space-around;
-}
-.birth {
-	display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-}
-.street input{
-	width: 75%;
-	border: none;
-	border-bottom: 1px solid black;
-}
-.name  {
+
+.name {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 }
+
 .name1 {
 	border: none;
 }
+
 .name1 input {
 	border: none;
-    border-bottom: 1px solid;
+	border-bottom: 1px solid;
 }
-.divreg{
+
+.divreg {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	margin-left: 222px;
-    border-style: dotted;
-    border-width: 4px;
-    padding: 41px;
-    width: 800px;
-    font-family: monospace;
-    font-size: 19px;
+	border-style: dotted;
+	border-width: 4px;
+	padding: 41px;
+	width: 800px;
+	font-family: monospace;
+	font-size: 19px;
 }
-.divform{
+
+.divform {
 	display: flex;
-    justify-content: center;
-	
+	justify-content: center;
+
 }
-.divreg h2{
+
+.divreg h2 {
 	text-align: center;
 }
 
-.divrules1{
-	margin-left: 222px;
-    border-style: dotted;
-    border-width: 4px;
-    padding: 41px;
-    width: 800px;
-    font-family: monospace;
-    font-size: 19px;
+.divrules1 {
+	display: grid;
+	grid-column: 2;
+	grid-row: 2;
+	border-style: dotted;
+	border-width: 4px;
+	padding: 41px;
+	width: 800px;
+	font-family: monospace;
+	font-size: 19px;
 }
 
-.logo11{
+
+.logo11 {
 	width: 108px;
-    position: absolute;
-    left: 56px;
-    top: 113px;
-	
+	position: absolute;
+	left: 56px;
+	top: 113px;
+
 }
-.map{
+
+.map {
 	width: 267px;
-    height: 56px;
+	height: 56px;
 }
-.divptab{
+
+.divptab {
 	margin-top: 50px;
-    top: 200px;
-    margin-left: 200px;
-    font-family: monospace;
-    font-size: 21px;
+	top: 200px;
+	margin-left: 200px;
+	font-family: monospace;
+	font-size: 21px;
 }
+
 .divtable {
 	margin-top: 33px;
-    width: 800px;
+	width: 800px;
 	align-content: center;
 	margin-left: 200px;
 }
 
-.table, th, td {
-	width:auto;
+.table,
+th,
+td {
+	width: auto;
 	font-family: monospace;
-    text-align: left;
+	text-align: left;
 	width: 800px;
 }
-.table, tr{
+
+.table,
+tr {
 	font-size: 18px;
 }
-.trtitle{
-    font-size: 29px;
+
+.trtitle {
+	font-size: 29px;
 	text-decoration: underline;
-	
+
 }
-.trtitle2{
+
+.trtitle2 {
 	font-size: 21px;
 
 }
-.nav{
-    position: absolute;
-    right: 50px;
-    top: 54px;
+
+.divNav {
+	display: grid;
+	grid-column: 3;
+	grid-row: 1;
+	justify-content: end;
 }
-.nav a{
+
+.nav a {
 	display: inline;
 }
 
-.a1{
+.a1 {
 	background-color: #4CAF50;
-    color: white;
-    padding: 13px;
-    font-size: 18px;
-    font-family: sans-serif;
+	color: white;
+	padding: 13px;
+	font-size: 18px;
+	font-family: sans-serif;
 	border-radius: 4px;
 }
-.a1:hover, a:active {
-  background-color: palegreen;
+
+.a1:hover,
+a:active {
+	background-color: palegreen;
 }
-.h1hm{
-	position: relative;
-	font-size: 59px;
+
+.h1hm {
+	display: grid;
+	grid-column: 2/3;
+	font-size: 43px;
 }
-.divbg{
+
+.divbg {
+	display: grid;
+	grid-column: 2/4;
+	grid-row: 2/3;
 	width: 100%;
 	height: 833px;
 	background-image: url(campo-de-futebol-wallpaper.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
-.logo{
+
+.logo {
 	width: 260px;
-    position: absolute;
-    left: 544px;
-    top: 435px;
+	position: absolute;
+	left: 544px;
+	top: 374px;
 }
-.h2home{
+
+.h2home {
 	font-size: 46px;
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 132px;
-    left: 527px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 132px;
+	left: 527px;
 }
-.upev{
+
+.upev {
 	font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 25px;
-    color: white;
-    position: absolute;
-    right: 507px;
-    top: 221px;
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	right: 507px;
+	top: 221px;
 }
-.divabout{
-    position: absolute;
-    width: 1183px;
-    left: 85px;
-    top: 137px;
-    font-size: 20px;
-    color: white;
-}
-.li1{
-	margin-top: 27px;
-}
-.h2about{
-	background-color: black;
-    text-align: center;	
+
+.divabout {
+	position: absolute;
+	width: 1183px;
+	left: 85px;
+	top: 137px;
+	font-size: 20px;
 	color: white;
 }
-.divp{
+
+.li1 {
+	margin-top: 27px;
+}
+
+.h2about {
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+.divp {
 	position: absolute;
-    left: 502px;
-    top: 468px;
+	left: 502px;
+	top: 468px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
-.pcontact{
-    position: absolute;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: white;
-    font-size: 26px;
-    right: 459px;
-    top: 254px;
+
+.pcontact {
+	position: absolute;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	font-size: 26px;
+	right: 459px;
+	top: 254px;
 }
+
 .dropbtn {
-  background-color: #4CAF50;
-    color: white;
-    padding: 13px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    font-family: sans-serif;
+	background-color: #4CAF50;
+	color: white;
+	padding: 13px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	font-family: sans-serif;
 	border-radius: 4px;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #4CAF50;
-  min-width: 180px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 4px;
+	display: none;
+	position: absolute;
+	background-color: #4CAF50;
+	min-width: 180px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: 4px;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
 
 .dropdown:hover .dropdown-content {
-  display: block;
+	display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: ##4CAF50;
+	background-color: #4CAF50;
 }
